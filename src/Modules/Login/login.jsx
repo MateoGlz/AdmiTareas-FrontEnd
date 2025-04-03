@@ -7,7 +7,7 @@ const Login = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        if (code === '115' && user ==='potro') {
+        if (code === '1234' && user ==='admin') {//Esta hardcodeado por que no sabía si requerías login
             navigate('/home'); 
         } else {
             alert('Código incorrecto'); 
